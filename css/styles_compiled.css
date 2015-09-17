@@ -1,0 +1,22 @@
+body {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
+
+.demo_col {
+  -webkit-flex: 0 1 800px;
+  -ms-flex: 0 1 800px;
+  flex: 0 1 800px;
+  background-color: #dedede;
+  text-align: center; }
+
+.demo_row {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
