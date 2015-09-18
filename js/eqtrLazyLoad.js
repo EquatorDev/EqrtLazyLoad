@@ -76,4 +76,3 @@ function eqtrLazyLoad(buffer, max_speed) {
 		checkStoppedScrolling();
 	};
 }
-function eqtrLazyLoad(){function o(a){return f=a.timeStamp,g=window.pageYOffset,h=f-d,i=Math.abs(g-e),d=f,e=g,i/h}function p(){clearTimeout(j),j=setTimeout(s,50)}function q(a){return k=window.innerHeight,n=a.getBoundingClientRect(),n.top>0-b&&n.top<k+b||n.top<0&&n.bottom>0}function r(a){a.src=a.dataset.src}function s(){for(l=c.length-1;l>=0;l--)m=c[l],q(m)&&(r(m),c.splice(l,1))}var f,g,h,i,j,k,l,m,n,a=1.5,b=100,c=Array.prototype.slice.call(document.querySelectorAll("img[data-src]")),d=(new Date).getTime(),e=window.pageYOffset;window.onscroll=function(b){return 0===c.length&&(window.onscroll=null),o(b)<a?s():void p()},s()}
